@@ -1,0 +1,93 @@
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<div class="container1">
+    <ul>
+        <li>
+            <a routerLink="slider">home</a>
+            <a routerLink="about">about</a>
+            <a href="services">services</a>
+            <a href="contact">contact</a>
+            <a href="features">features</a>
+            <a href="more">more</a>
+
+        </li>
+    </ul>
+</div>
+
+<div class="container">
+    <span id="sp" (click)="toggle()">&#9776;</span>
+   
+   </div>
+<div class="hide" *ngIf="isDisplay">
+    <div class="navbar"  >
+        <span id="sa" (click)="toggle()"> &#9747;</span>
+
+        <ul>
+
+            <li>
+
+                <a href="#">
+                    <span class="icon1"><i class="fa fa-apple" aria-hidden="true"></i></span>
+                    <span class="title">
+                        <h2>Brand Name</h2>
+                    </span>
+                </a>
+            </li>
+
+            <li>
+                <a routerLink="home">
+                    <span class="icon"><i class="fa fa-sign-in" aria-hidden="true">
+                    </i>
+                    </span>
+                    <span class="title">Login</span>
+                </a>
+            </li>
+            <li>
+                <a routerLink="customer">
+                    <span class="icon"><i class="fa fa-user" aria-hidden="true"></i>
+                    </span>
+                    <span class="title">Customers</span>
+                </a>
+            </li>
+            <li>
+                <a routerLink="#">
+                    <span class="icon"><i class="fa fa-commenting" aria-hidden="true"></i>
+                    </span>
+                    <span class="title">Message</span>
+                </a>
+            </li>
+
+
+
+            <li>
+                <a routerLink="#">
+                    <span class="icon"><i class="fa fa-info-circle" aria-hidden="true"></i></span>
+                    <span class="title">Help</span>
+                </a>
+            </li>
+            <li>
+                <a routerLink="#">
+                    <span class="icon"><i class="fa fa-cog" aria-hidden="true"></i>
+                    </span>
+                    <span class="title">Setting</span>
+                </a>
+            </li>
+            <li>
+                <a routerLink="#">
+                    <span class="icon"><i class="fa fa-unlock-alt" aria-hidden="true"></i>
+                    </span>
+                    <span class="title">Password</span>
+                </a>
+            </li>
+            <li>
+                <a routerLink="#">
+                    <span class="icon"><i class="fa fa-sign-out" aria-hidden="true"></i>
+                    </span>
+                    <span class="title">Sign Out</span>
+                </a>
+            </li>
+
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,18 @@
+.footer{
+    background-color:violet;
+    position: fixed;
+    bottom:0;
+    display:flex;
+    width:100%;
+     text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.footer h2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+padding:5px 10px;
+}

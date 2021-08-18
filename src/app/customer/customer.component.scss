@@ -1,0 +1,47 @@
+.container{
+    position: absolute;
+ 
+   bottom:60%;
+   left:15%;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+    justify-content: center;
+}
+.lo{
+
+    font-size: 30px;
+    border-radius: 50%;
+    color:red;
+}
+.table th,tr,td{
+border:2px solid rgb(99, 84, 84);
+padding: 0px 20px;
+width:200px;
+height:50px;
+
+}
+#table{
+    padding:20px;
+    background-color:white;
+    position: absolute;
+    top:40%;
+    left:25%;
+}
+#table td,th{
+    vertical-align: middle;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#first td {
+    color:white;
+    background-color: darkblue;
+    
+}
